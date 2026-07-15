@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     // Kite dependency is required for .kite.kts scripts to be properly recognized.
-    compileOnly("dev.echonine:kite:1.6.1")
+    compileOnly("dev.echonine:kite:1.6.2")
     // Server API can be Paper, Folia, Purpur or any other compatible fork.
     compileOnly("io.papermc.paper:paper-api:26.1.2.build.+")
     // Other dependencies used in scripts like e.g., LuckPerms or PlaceholderAPI, can be added as well.
